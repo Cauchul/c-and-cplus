@@ -6,11 +6,13 @@
 int main() { // 主函数
     const int a = 100;
     int res = add(a , 20);
-    printf("输出的结果为：%d\n", res);
-    str_list();
+    // printf("输出的结果为：%d\n", res);
+    // str_list();
 
-    test();
-    s_in();
+    // test();
+    // s_in();
+
+    enum_test();
 
     return 0;
 }

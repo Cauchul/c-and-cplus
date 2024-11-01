@@ -14,3 +14,23 @@ int test() {
     scanf("%d %d", &a, &b);
     printf("a = %d, b = %d\n", a, b);
  }
+
+enum PEOPLE {
+    Male,
+    FeMale
+};
+ //
+int enum_test(){
+    enum PEOPLE p1 = Male;
+    switch (p1)
+    {
+    case Male:
+        printf("now people is Male.");
+        break;
+    
+    default:
+        printf("now people is Female.");
+        break;
+    }
+
+}
